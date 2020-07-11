@@ -19,9 +19,9 @@ const PrevisaoItem = (props) => {
                     weather[0].description}</Text>
                 </View>
                 <View style={estilos.SegundaLinha}> 
-                    <Text style={estilos.valor}>{props.previsao.item.main.temp_min}</Text>
-                    <Text style={estilos.valor}>{props.previsao.item.main.temp_max}</Text>
-                    <Text style={estilos.valor}>{props.previsao.item.main.humidity}</Text>
+                    <Text style={estilos.valor}>{props.previsao.item.current.sunsrise}</Text>
+                    <Text style={estilos.valor}>{props.previsao.item.current.sunset}</Text>
+                    <Text style={estilos.valor}>{props.previsao.item.main.current.feels_like}</Text>
                 </View>
             </View>
         </View>

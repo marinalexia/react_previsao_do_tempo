@@ -20,7 +20,7 @@ const estilos = StyleSheet.create({
         shadowColorOpacity: 0.32,
         elevation: 4,
         backgroundColor: 'white',
-        paffing: 12,
+        padding: 12,
         borderRadius: 12
     }
 });
